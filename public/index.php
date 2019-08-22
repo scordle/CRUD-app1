@@ -10,3 +10,5 @@
 </ul>
 
 <?php include "templates/footer.php"; ?>
+
+<?php phpinfo(); ?>
