@@ -11,4 +11,4 @@
 
 <?php include "templates/footer.php"; ?>
 
-<?php phpinfo(); ?>
+<?php /**phpinfo(); */?>
