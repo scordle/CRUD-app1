@@ -1,6 +1,8 @@
-<?php include "templates/header.php"; ?>
+<?php require "templates/header.php"; ?>
 
-<form method="post">
+  <h2>Add a user</h2>
+
+  <form method="post">
     <label for="firstname">First Name</label>
     <input type="text" name="firstname" id="firstname" />
 
@@ -17,8 +19,8 @@
     <input type="text" name="location" id="location" />
 
     <input type="submit" name="submit" value="Submit" />
-</form>
+  </form>
 
-<a href="index.php">Back to home</a>
+  <a href="index.php">Back to home</a>
 
-<?php include "templates/footer.php"; ?>
+<?php require "templates/footer.php"; ?>
