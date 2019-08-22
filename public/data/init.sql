@@ -1,4 +1,4 @@
-CREATE DATABASE csc272_scratchpad;
+-- CREATE DATABASE csc272_scratchpad;
 
 USE csc272_scratchpad;
 
@@ -12,4 +12,4 @@ CREATE TABLE users (
     date TIMESTAMP
 );
 
-SELECT * FROM users;
+-- SELECT * FROM users;
